@@ -1,0 +1,127 @@
+:root {
+  /* BRAND */
+  --bs-primary: #FFA700;
+  --bs-secondary: #FF9600;
+
+  /* BODY */
+  --bs-body-bg: #102C57;
+  --bs-body-color: #dee2e6;
+
+  /* UI */
+  --bs-border-color: #dee2e6;
+  --bs-link-color: #FFA700;
+  --bs-link-hover-color: #e69500;
+
+  /* TABLE */
+  --bs-table-striped-bg: #fff7e6;
+}
+
+
+/* Tabela */
+
+.products {
+  padding: 20px;
+}
+
+.header{
+  background-color: var(--bs-primary) !important;
+  color: #000 !important;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.table thead th {
+  color: #FFA700;
+  font-weight: 600;
+  border-bottom: 2px solid #FFA700;
+}
+
+th, td {
+  border: 1px solid #FFA700;
+  padding: 8px;
+}
+
+
+/* Imagem*/
+
+.product-img {
+  width: 70px;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Botões */
+
+.d-flex.justify-content-end {
+  padding-top: 20px;    
+  padding-right: 20px;  
+  gap: 10px;            
+}
+
+.d-flex.justify-content-end.gap-2.mt-4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding-top: 20px;    
+  padding-right: 30px;  
+  margin-top: 0 !important; 
+  z-index: 1000;
+}
+
+.btn-primary {
+  color: #000;
+  font-weight: 600;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+
+.btn-primary:hover {
+  background-color: #e69500 !important; 
+  border-color: #e69500 !important;
+}
+
+/* Cards e Formulário */
+
+.card-header-orange {
+  height: 8px;
+  background-color: var(--bs-primary);
+  width: 100%;
+}
+
+.product-card {
+  width: 100%;
+  max-width: 450px;
+  background-color: #ffffff; 
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+h2.text-dark {
+  color: #212529 !important;
+}
+
+.btn-primary.w-100 {
+  margin: 0 !important; 
+  padding: 12px;
+}
+
+.form-control, input, textarea {
+  background-color: #ffffff !important; 
+  color: #212529 !important; 
+  border: 1px solid #ced4da; 
+}
+
+.form-control:focus, input:focus, textarea:focus {
+  background-color: #ffffff !important; 
+  border-color: var(--bs-primary) !important; 
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(255, 167, 0, 0.10) !important;
+}
